@@ -31,6 +31,7 @@ Example:
 
 ``
 Calculator cal = new Calculator();
+
 cal.multiply(2,2);
 ``
 
