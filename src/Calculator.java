@@ -54,7 +54,10 @@ public class Calculator {
 		return sum;
 	}
 	//TODO: Subtraction Method, cal the method: subtract();
-	
+	public static int subtract(int x, int y) {
+		int sum = x + y;
+		return sum;
+	}
 	//Division Method
 	public static int division (int x, int y) {
 		int quotient = x/y;
