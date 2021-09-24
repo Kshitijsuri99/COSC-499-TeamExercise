@@ -49,7 +49,10 @@ public class Calculator {
 	}
 
 	//TODO: Addition Method, call the method: add();
-
+	public static int add(int x, int y) {
+		int sum = x + y;
+		return sum;
+	}
 	//TODO: Subtraction Method, cal the method: subtract();
 	
 	//Division Method
