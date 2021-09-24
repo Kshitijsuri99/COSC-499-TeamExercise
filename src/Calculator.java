@@ -23,14 +23,16 @@ public class Calculator {
 		int solution = 0;
 		
 		if (action.equals("+")) {
-			//TODO
+			solution = add(x, y);
+			System.out.println("Answer: " + solution);
 		}
 		else if (action.equals("*")) {
 			solution = multiply(x, y);
 			System.out.println("Answer: " + solution);
 		}
 		else if (action.equals("-")) {
-			//TODO
+			solution = subtract(x, y);
+			System.out.println("Answer: " + solution);
 		}
 		else if (action.equals("/")) {
 			solution = division(x, y);
