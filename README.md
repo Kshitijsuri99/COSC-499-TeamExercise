@@ -17,8 +17,24 @@ The calculator has 4 features:
 4. Division
 
 ## Addition
+The addition feature functions by simply adding two numbers together. 
+add(x,y) = b
+
+For example, x = y = 2. 
+For instance the result of add(x,y) = 4.
+
+To run this feature initialize the calculator and execute the the main method which will further instructs the chooseaction method to make a decision and call the add method. 
+The method takes two parameters (integers) which are the numbers to be multiplied.
 
 ## Subtraction
+The subtracted feature functions by simply subtracted two numbers together. 
+subtract(x,y) = b
+
+For example, x = y = 2. 
+For instance the result of subctract(x,y) = 0.
+
+To run this feature initialize the calculator and execute the the main method which will further instructs the chooseaction method to make a decision and call the subtract method. 
+The method takes two parameters (integers) which are the numbers to be subtracted.
 
 ## Multiplication
 The multiplication feature functions by simply multiplying two numbers. 
