@@ -6,7 +6,7 @@ public class Calculator {
 
 		Scanner in = new Scanner(System.in);
 		
-		System.out.println("Enter the action you want to perform '+' for addition, '-' for subtraction, '*' for multiplication, '/' for division: 2");
+		System.out.println("Enter the action you want to perform '+' for addition, '-' for subtraction, '*' for multiplication, '/' for division: ");
 		String action = in.nextLine();
 		action = action.trim();
 		
@@ -48,9 +48,9 @@ public class Calculator {
 		return product;
 	}
 
-	//TODO: Addition Method
+	//TODO: Addition Method, call the method: add();
 
-	//TODO: Subtraction Method
+	//TODO: Subtraction Method, cal the method: subtract();
 	
 	//Division Method
 	public static int division (int x, int y) {
